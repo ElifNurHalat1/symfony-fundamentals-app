@@ -13,9 +13,11 @@
         "symfony/console": "*",
         "symfony/dotenv": "*",
         "symfony/flex": "^2",
+        "symfony/form": "^7.0",
         "symfony/framework-bundle": "*",
         "symfony/runtime": "*",
         "symfony/twig-bundle": "^7.0",
+        "symfony/validator": "^7.0",
         "symfony/yaml": "*"
     },
     "config": {
@@ -68,6 +70,9 @@
         }
     },
     "require-dev": {
-        "symfony/maker-bundle": "^1.65"
+        "doctrine/doctrine-fixtures-bundle": "^4.3",
+        "symfony/maker-bundle": "^1.65",
+        "symfony/stopwatch": "^7.0",
+        "symfony/web-profiler-bundle": "^7.0"
     }
 }
